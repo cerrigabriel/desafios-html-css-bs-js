@@ -7,9 +7,7 @@
     --light-blue: #0a2ff1;
 }
 
-*{
-    margin: 0 auto;
-    text-align: center;
+*{  
     font-family: var(--font-family);
     color: var(--color);
 }
@@ -24,11 +22,18 @@ h2{
     font-weight: bold;
     color: var(--light-blue);
     font-size: 21.56px;
+    display: inline-block;
 }
 
 p{
     font-size: 19,973px;
     color: var(--blue);
     width: 40%;
-    margin: 0 0 0 70px;
+    margin-left: 70px;
+}
+
+img { 
+    width: 50px; 
+    vertical-align: middle; 
+    margin-right: 15px;
 }
