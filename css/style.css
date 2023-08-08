@@ -1,55 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.google.com/share?selection.family=Mulish:wght@400;700;900');
 
 :root{
-    --font-family:'Roboto', sans-serif;
+    --font-family:'Mulish', sans-serif;
 }
 
 *{  
     font-family: var(--font-family);
+    color: #0a2ff1;
 }
 
-@font-face {
-    font-family: coolvetica;
-    src: url(/assets/dm1-e3/coolvetica\ rg.otf);
-  }
+h2{
+  font-size: 2.5rem;
+}
 
-  h1{
-    font-family: coolvetica;
-    font-size: 7.5rem;
-    color: #0a2ff1;
-  }
+h1{
+  font-size: 5rem;
+  font-weight: 900;
+}
 
-  h2{
-    font-weight: 900;
-    color: #0a2ff1;
-    font-size: 30px;
-  }
+p{
+  font-size: 1.66rem;
+  color: #04146c;
+}
 
-  p{
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #04146c;
-  }
+span{
+  font-weight: bold;
+  color: #04146c;
+}
   
-.container{
-    padding: 1em;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.modos{
-    background-color: #eff2ff;
-    width: 20%;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-img{
-    width: 25%;
-}
-
-#apple{
-    width: 18%;
+button{
+  height: 70px;
+  width: 400px;
+  font-size: 1.83rem;
+  background-color: #0a2ff1;
+  color: white;
 }
