@@ -1,46 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 :root{
     --font-family:'Roboto', sans-serif;
 }
+
+@font-face {
+    font-family: coolvetica;
+    src: url(/assets/dm1-e3/coolvetica\ rg.otf);
+  }
 
 *{  
     font-family: var(--font-family);
 }
 
 h1{
-    font-size: 4rem;
+    /*cambiar font-family*/
     color: #0a2ff1;
-    font-weight: bold;
-}
-
-h2, p, span{
-    color: #04146c;
+    font-family: coolvetica;
+    font-size: 7.5rem;
 }
 
 h2{
+    color: #04146c;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
-p{
-    font-size: 1rem;
-    font-weight: 300;
+h2>span{
+    font-weight: 700;
 }
 
-span{
-    font-weight: 400;
+.resenias{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .container{
+    background-color: #eff2ff;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: left;
+    width: 25%;
+    padding: 1em;
 }
 
-#paleta{
-    width: 30%;
+.usuario, h3, .opinion{
+    color: #0a2ff1;
+    font-size: 1.5rem;
 }
 
-div{
+.usuario{  
+    font-style: italic;
+    font-weight: 300;
+}
+
+h3{
+    font-weight: 900;  
+}
+
+.opinion{
+    font-weight: 400;  
+}
+
+img{
     width: 30%;
 }
