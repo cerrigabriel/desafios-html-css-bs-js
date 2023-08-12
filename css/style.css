@@ -17,10 +17,14 @@ h1{
 
 h2{
   font-size: 100%;
-  color: #15163d;
-  font-weight: 400;
+  font-weight: bold;
 }
 
+h3{
+  font-size: 75%;
+  font-weight: 400;
+
+}
 section{
   display: flex;
   justify-content: space-around;
@@ -28,16 +32,27 @@ section{
 
 .container{
   border: 1px solid slategrey;
-  box-shadow: inset;
+  border-radius: 8px;
   width: 20%;
   margin: 1% 0;
-  flex-direction: column;
   align-items: stretch;
+  position: relative;
 }
 
-img, h2{
+img{
   width: 100%;
 }
+
+.text{
+  position: absolute; 
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
+
+
 
 
 @media screen and (max-width: 992px) {
