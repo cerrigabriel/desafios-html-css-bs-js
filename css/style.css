@@ -6,42 +6,28 @@
 
 *{
   font-family: var(--font-family);
-  text-align: center;
 }
 
 h1{
   font-weight: bold;
-  font-size: 49pt;
+  font-size: 37pt;
   color: #04146c;
 }
 
 h2{
+  color: #04146c;
+  font-size: 18pt;
+}
+
+span{
   color: #0a2ff1;
-  font-size: 30pt;
-  font-weight: bold;
-}
-
-h3{
-  color: #04146c;
   font-size: 18pt;
   font-weight: bold;
 }
 
-p{
-  color: #04146c;
-  font-size: 18pt;
-}
-
-button{
-  background-color: white;
-  color: #04146c;
-  font-size: 18pt;
-  border: 1px solid #0a2ff1;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   
   img{
-    width: 66%;
+    width: 80%;
   }
 }
