@@ -1,34 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
 
 :root{
-    --font-family:'Mulish', sans-serif;
+    --font-family:'Source Sans 3', sans-serif;
 }
 
 *{
   font-family: var(--font-family);
 }
 
-label{
-  font-weight: 600;
-  font-size: 18pt;
+h1{
+  font-weight: 900;
+  font-size: 62pt;
   color: #04146c;
 }
 
-p{
+h2, span{
+  font-size: 16pt;
+  color: #04146c;
+}
+
+span{
   font-style: italic;
-  font-weight: 13pt;
-  color: #04146c;
-}
-
-#checkbox{
-  font-size: 400;
 }
 
 .btn{
-  background-color: #5974ff;
-  font-size: 18pt;
-  font-weight: bold;
+  background-color: #04146c;
+  font-size: 14pt;
   color: white;
   width: 150px;
-  height: 50px;
+  font-variant-caps: small-caps;
+}
+
+@media screen and (min-width: 768px) {
+  img{
+    width: 80%;
+  }
 }
