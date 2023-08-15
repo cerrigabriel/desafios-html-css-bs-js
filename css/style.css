@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url(https://fonts.google.com/share?selection.family=Mulish:ital,wght@0,400;0,700;1,400);
 
 :root{
     --font-family:'Mulish', sans-serif;
@@ -11,68 +11,37 @@
 
 h1{
   font-weight: bold;
-  font-size: 400%;
-  color: #3957f1;
+  font-size: 49pt;
+  color: #04146c;
 }
 
 h2{
-  font-size: 100%;
+  color: #0a2ff1;
+  font-size: 30pt;
   font-weight: bold;
 }
 
 h3{
-  font-size: 75%;
-  font-weight: 400;
-
-}
-section{
-  display: flex;
-  justify-content: space-around;
+  color: #04146c;
+  font-size: 18pt;
+  font-weight: bold;
 }
 
-.container{
-  border: 1px solid slategrey;
-  border-radius: 8px;
-  width: 20%;
-  margin: 1% 0;
-  align-items: stretch;
-  position: relative;
+p{
+  color: #04146c;
+  font-size: 18pt;
 }
 
-img{
-  width: 100%;
+button{
+  background-color: white;
+  color: #04146c;
+  font-size: 18pt;
+  border: 1px solid #0a2ff1;
 }
 
-.text{
-  position: absolute; 
-  width: 100%;
-  text-align: center;
-  bottom: 0;
-  left: 0;
-  color: white;
-}
-
-
-
-
-@media screen and (max-width: 992px) {
-  section{
-    flex-wrap: wrap;
-  }
-
-  .container{
-    width: 40%;
+@media screen and (max-width: 767px) {
+  
+  img{
+    width: 66%;
   }
 }
-
-@media screen and (max-width: 768px) {
-  section{
-    flex-wrap: wrap;
-  }
-
-  .container{
-    width: 50%;
-  }
-
-}
-
