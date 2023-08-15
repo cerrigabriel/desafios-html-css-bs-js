@@ -8,16 +8,23 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="container d-flex flex-column align-items-center text-left">
-        <div class="row">
-            <div class="col-md-6 mt-2 mt-md-5 d-flex flex-column align-items-center justify-content-center">
-                <h1>Todo lo que tu marca necesita para romperla en redes</h1>
-                <h2>Somos un equipo interdisciplinario. Tenemos la capacidad y las herramientas para satisfacer todas las necesidades de tu marca y <span>llevarla a un nuevo nivel.</span></h2>
+    <div class="container m-auto">
+       <form action="#" method="post">
+            <div class="my-3">
+                <label for="email" class="form-label" id="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email">
+                <p>Nunca compartiremos tu dirección de correo electrónico con nadie</p>
             </div>
-            <div class="col-md-6 mt-md-5">
-                <img src="/assets/dm2bs-e2/foto-compu.png" alt="Computadora" class="img-fluid" >
+            <div class="my-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password">
             </div>
-        </div>
+            <div class="my-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label id="checkbox" for="checkbox" class="form-check-label">Recordame</label>
+            </div>                       
+            <button class="btn btn-primary">Enviar</button>
+       </form>
     </div>
 </body>
 </html>
